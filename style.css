@@ -1,0 +1,476 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+.clearfix::after{
+  content:"";
+  display:block;
+  clear:both;
+}
+
+nav{
+  background-color:#EC715F;
+  height:70px;
+}
+
+.nav-header{
+  width:1024px;
+  margin:0 auto;
+}
+
+.logo{
+  float:left;
+  height:70px;
+}
+.nav-list{
+  float:right;
+}
+.nav-list-item{
+  display:inline-block;
+  color:#fff;
+  line-height:70px;
+  font-size:16px;
+  padding:0 30px;
+}
+
+.main-visual{
+  background-image:url(img/mv.png);
+  background-size:cover;
+  background-position:center;
+  width:100%;
+  height:650px;
+  padding-top:200px;
+  text-align:center;
+}
+
+.main-visual-headline{
+  color:#FAFAFA;
+  font-size:64px;
+  padding-bottom:10px;
+}
+
+.main-visual-text{
+  font-size:20px;
+  color:#FAFAFA;
+}
+
+main{
+  width:100%;
+  text-align: center;
+}
+
+.portfolio{
+  background-color:#ECEFF1;
+}
+
+.portfolio-content{
+  width:920px;
+  margin: 0 auto;
+  padding: 90px 0;
+}
+
+.portfolio-headline{
+  font-size:32px;
+  color:#000000;
+  position:relative;
+}
+.portfolio-headline::after{
+  content:"";
+  width:70px;
+  display:inline-block;
+  position:absolute;
+  left:50%;
+  bottom:-8px;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);/*位置調整*/
+  height:3px;
+  background-color:#EC715F;
+}
+
+.portfolio-text{
+  padding:30px 0;
+  font-size:16px;
+  color:#000000;
+}
+
+.portfolio-box{
+  width:300px;
+  height:250px;
+  float:left;
+  margin-right:10px;
+  margin-bottom:10px;
+}
+
+main .portfolio-box:nth-of-type(1){
+  background-image: url(img/sketch.jpg);
+  background-size:cover;
+  background-position:center;
+}
+
+main .portfolio-box:nth-of-type(2){
+  background-image: url(img/websuku.png);
+  background-size:cover;
+  background-position:center;
+}
+main .portfolio-box:nth-of-type(3){
+  background-image: url(img/write.jpg);
+  background-size:cover;
+  background-position:center;
+  margin-right:0;
+}
+main .portfolio-box:nth-of-type(4){
+  background-image: url(img/webcamp.png);
+  background-size:cover;
+  background-position:center;
+  margin-bottom:0;
+}
+main .portfolio-box:nth-of-type(5){
+  background-image: url(img/talk.jpg);
+  background-size:cover;
+  background-position:center;
+  margin-bottom:0;
+}
+main .portfolio-box:nth-of-type(6){
+  background-image: url(img/webcamp-mother.png);
+  background-size:cover;
+  background-position:center;
+  margin-right:0;
+  margin-bottom:0;
+}
+
+.feature-content{
+  padding:90px 0;
+  width:980px;
+  margin: 0 auto;
+}
+
+.feature-headline{
+  font-size:32px;
+  color:#000000;
+  position:relative;
+}
+
+.feature-headline::after{
+  content:"";
+  width:70px;
+  display:inline-block;
+  position:absolute;
+  left:50%;
+  bottom:-8px;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);/*位置調整*/
+  height:3px;
+  background-color:#EC715F;
+}
+
+.feature-text{
+  font-size:16px;
+  color:#000000;
+  padding:30px;
+}
+
+.feature-box{
+  width:320px;
+  float:left;
+  margin-right:10px;
+}
+
+.feature-box:last-child{
+  margin-right:0;
+}
+
+.fas{
+  font-size:60px;
+}
+
+.feature-box h2{
+  font-size:20px;
+  color:#000000;
+  padding:10px 0;
+}
+
+.feature-box p{
+  text-align:left;
+  font-size:16px;
+  color:#000000;
+}
+
+.profile{
+  background-color:#ECEFF1;
+}
+.profile-content{
+  width:1024px;
+  padding:90px 0;
+  margin: 0 auto;
+}
+
+.profile-headline{
+  font-size:32px;
+  color:#000000;
+  position:relative;
+}
+
+.profile-headline::after{
+  content:"";
+  width:70px;
+  display:inline-block;
+  position:absolute;
+  left:50%;
+  bottom:-8px;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);/*位置調整*/
+  height:3px;
+  background-color:#EC715F;
+}
+
+.profile-text{
+  padding:30px 0;
+  font-size:16px;
+  color:#000000;
+}
+
+.profile-icon{
+  float:left;
+  width:512px;
+}
+
+.profile-icon img{
+  width:250px;
+  height:250px;
+  border-radius: 50%;
+}
+
+.profile-box-text{
+  float:left;
+  width:512px;
+  text-align:left;
+}
+
+.profile-box-text h2{
+  font-size:20px;
+  padding:20px 0 5px 0;
+}
+
+.profile-box-text h2:first-child{
+  padding:0 0 5px 0;
+}
+
+.contact-content{
+  width:800px;
+  margin: 0 auto;
+  padding:90px 0;
+}
+
+.contact-headline{
+  font-size:32px;
+  color:#000000;
+  position:relative;
+}
+
+.contact-headline::after{
+  content:"";
+  width:70px;
+  display:inline-block;
+  position:absolute;
+  left:50%;
+  bottom:-8px;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);/*位置調整*/
+  height:3px;
+  background-color:#EC715F;
+}
+.contact-text{
+  padding:30px;
+  font-size:16px;
+  color:#000000;
+}
+
+.contact-box-left{
+  float:left;
+  width:400px;
+  text-align:left;
+}
+
+
+.description-title{
+  font-size:20px;
+  padding:20px 0 5px 0; 
+  width:130px;
+  margin: 0 auto;
+}
+
+.description-title:first-child{
+  padding:0 0 5px 0;  
+}
+
+.description-text{
+  width:130px;
+  margin: 0 auto;
+}
+
+.contact-box-right{
+  float:left;
+  width:400px;
+  text-align:left;
+}
+
+.contact-box-right-box{
+  width:170px;
+  margin:0 auto;
+}
+
+.description-sns{
+  font-size:20px;
+}
+
+.fab{
+  font-size:50px;
+}
+.fa-twitter{
+  padding:0 10px 0 10px;
+}
+
+footer{
+  height:60px;
+  background-color:#EC715F;
+  text-align:center;
+}
+
+footer p{
+  font-size:16px;
+  color:#FAFAFA;
+  line-height:60px;
+}
+
+@media screen and (max-width:767px){
+  nav{
+    height:50px;
+  }
+
+  .nav-header{
+    width:90%;
+    margin:0 auto;
+  }
+  .logo{
+    height:50px;
+  }
+  .nav-list{
+    display:none;
+  }
+  .main-visual{
+    background-image:url(img/code.png);
+  }
+  .main-visual-headline{
+    font-size:40px;
+  }
+
+  .main-visual-text{
+    font-size:18px;
+  }
+
+  .container{
+    width:90%;
+    margin:0 auto;
+  }
+  .portfolio-content{
+    width:90%;
+  }
+
+  .sp-none{
+    display:none;
+  }
+  .portfolio-box{
+    float:none;
+    margin:0 auto 10px ;
+  }
+
+  main .portfolio-box:nth-of-type(1){
+    background-image:url(img/websuku.png);
+  }
+
+  main .portfolio-box:nth-of-type(2){
+    background-image:url(img/webcamp.png);
+  }
+
+  main .portfolio-box:nth-of-type(3){
+    background-image:url(img/webcamp-mother.png);
+    margin:0 auto;
+  }
+
+  main .portfolio-box:nth-of-type(4){
+    display:none;
+  }
+  main .portfolio-box:nth-of-type(5){
+    display:none;
+  }
+  main .portfolio-box:nth-of-type(6){
+    display:none;
+  }
+
+  .feature-content{
+    width:90%;
+    margin:0 auto;
+  }
+
+  .feature-headline{
+    padding: 10px 0;
+  }
+
+  .feature-box{
+    float:none;
+    margin:0 auto;
+  }
+
+  .feature-box:nth-of-type(2){
+    margin-top:10px;    
+  }
+
+  .feature-box:last-child{
+    margin:10px auto 0;
+
+  }
+  .profile-content{
+    width:90%;
+    margin:0 auto;
+  }
+  .profile-icon{
+    float:none;
+    width:100%;
+  }
+
+  .contact-box{
+    text-align:center;
+  }
+  .profile-box-text{
+    float:none;
+    width:100%;
+    text-align:center;
+  }
+
+
+  .contact-box-left{
+    float:none;
+    width:100%;
+    text-align:center;
+  }
+  .description-title{
+    width:100%;
+  }
+  .contact-box-right{
+    float:none;
+    width:100%;
+    text-align:center;
+  }
+  .contact-content{
+    width:90%;
+    margin:0 auto;
+  }
+  .description-sns{
+   padding-top:20px; 
+  }
+
+
+
+}
